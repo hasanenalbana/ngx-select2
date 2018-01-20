@@ -42,5 +42,5 @@ Start using it in your template
 
 
 #### Notes
-- The directive works just fine with reactive forms. ..
-- Multiple selection is not supported yet (TODO). ..
+- The directive works just fine with reactive forms.
+- Multiple selection is not supported yet (TODO).
