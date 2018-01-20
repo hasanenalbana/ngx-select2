@@ -23,7 +23,7 @@ Inlcude select2 plugin into your .angular-cli.json config file
 ```
 Include ngx-select2 into your module
 ```
-import {Select2Directive} from "./SharedComponents/directives/select2.directive";
+import {Select2Directive} from "./my_directives/select2.directive";
 ...
 ...
 declarations[
@@ -31,3 +31,16 @@ declarations[
         Select2Directive
 ]
 ```
+Start using it in your template
+```
+<select  class="form-control" select2>
+                    <option value=1> Item1</option>
+                    <option value=2> Item2</option>
+                    ...
+</select>
+```
+
+
+#### Notes
+- The directive works just fine with reactive forms. ..
+- Multiple selection is not supported yet (TODO). ..
