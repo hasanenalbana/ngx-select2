@@ -33,7 +33,7 @@ declarations[
 ```
 Start using it in your template
 ```
-<select  class="form-control" select2>
+<select  class="form-control" [(ngModel)]="currentValue" select2>
                     <option value=1> Item1</option>
                     <option value=2> Item2</option>
                     ...
