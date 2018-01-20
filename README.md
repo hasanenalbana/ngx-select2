@@ -1,7 +1,7 @@
 # ngx-select2
 Angular X wrapper for Select2 jQuery plugin
 
-#Usage
+#### Usage
 install [select2](https://select2.org/) jQuery plugin
 ```
 npm install --save select2
@@ -19,5 +19,15 @@ Inlcude select2 plugin into your .angular-cli.json config file
           ..
           "../node_modules/select2/dist/js/select2.min.js"
           ]
+]
+```
+Include ngx-select2 into your module
+```
+import {Select2Directive} from "./SharedComponents/directives/select2.directive";
+...
+...
+declarations[
+        ...
+        Select2Directive
 ]
 ```
